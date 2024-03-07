@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bread Survey 🍞| Bread Inc</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 id="title">Bread Survey</h1>
+        <p id="description">Than you for choosing Bread Inc. Take this survey to improve our
+            bread section! Your opinions' matter!
+        </p>
+    </header>
+    <form id="survey-form">
+
+        <div class="form-section">
+            <label for="name" id="name-label">
+                Your Name:
+                <input name="name" type="text" id="name" placeholder="John Bread" class="box" required />
+            </label>
+        </div>
+
+        <div class="form-section">
+            <label for="email" id="email-label">
+                Email:
+                <input name="email" type="email" id="email" placeholder="breadenjoyer@example.com" class="box" required />
+            </label>
+        </div>
+
+        <div class="form-section">
+            <label for="age" id="number-label">
+                Age(Optional):
+                <input name="age" type="number" id="number" min="0" max="120" placeholder="Type your Age" class="box"/>
+            </label>
+        </div>
+
+        <div class="form-section">
+            <p>Are you satysfied with Bread Inc. current Bread menu?</p>
+            <label for="option" id="option-label">
+                <label for="option" class="option-label">
+                    <input type="radio" name="option" value="yes" class="box">
+                    Yes
+                </label>
+                <label for="option" class="option-label">
+                    <input type="radio" name="option" value="no" class="box">
+                    No
+                </label>
+
+                <label for="option" class="option-label">
+                    <input type="radio" name="option" value="mixed" class="box">
+                    Mixed Feelings
+                </label>
+            </label>
+
+        </div>
+
+        <div class="form-section">
+            <label for="referrer" id="referrer-label">Which Bread should Bread Inc. add?
+                <select name="referrer" id="dropdown">
+                    <option value="1">(select one)</option>
+                    <option value="2">White</option>
+                    <option value="3">Wheat</option>
+                    <option value="4">Whole Grain</option>
+                    <option value="5">Cornbread</option>
+                    <option value="6">Baguette</option>
+                </select>
+            </label>
+        </div>
+
+        <div class="form-section">
+            <p>Where are you located?</p>
+            <label for="location" id="location-label">
+
+                <label>
+                    <input type="checkbox" name="location" value="cali" class="locheckbox">
+                    California
+                </label>
+
+                <label>
+                    <input type="checkbox" name="location" value="texas" class="locheckbox">
+                    Texas
+                </label>
+
+                <label>
+                    <input type="checkbox" name="location" value="ohio" class="locheckbox">
+                    Ohio
+                </label>
+
+                <label>
+                    <input type="checkbox" name="location" value="new-mexico" class="locheckbox">
+                    New Mexico
+                </label>
+
+                <label>
+                    <input type="checkbox" name="location" value="florida" class="locheckbox">
+                    Flordida
+                </label>
+
+                <label>
+                    <input type="checkbox" name="location" value="utah" class="locheckbox">
+                    Utah
+                </label>
+
+            </label>
+        </div>
+
+        <div class="form-section">
+            <label for="comments" id="comment-label">
+                <p>Anything you would like to say to Bread Inc?(optional) </p>
+                <textarea class="box" name="comments" id="textarea-comment-box" cols="30" rows="5" maxlength="200"
+                    placeholder="Type here...(200 words max)">
+
+                </textarea>
+            </label>
+        </div>
+
+        <div class="form-section">
+            <label for="submit" id="submit-label">
+                <button type="submit" id="submit">Submit Survey</button>
+            </label>
+        </div>
+    </form>
+
+    <footer id="footer-survey">
+        <p>All Right Reserved: Johan Salceda-Arredondo</p>
+        <ul>
+            <li><a href="https://github.com/Jsalare" target="_blank">GitHub</a></li>
+            <li><a href="mailto:salcedaarredondojohan@gmail.com" target="_blank">Email</a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
